@@ -29,10 +29,8 @@ PySpark
 - Key Operations: withColumn(), groupBy(), when().otherwise(), and native SQL-like expression handling.
 
 ## Key Learnings
-Syntactic Differences: While the logic remains the same, the API differences 
+- Syntactic Differences: While the logic remains the same, the API differences 
 (e.g., Pandas' index-based approach vs. Spark's schema-based approach) 
 highlight the trade-offs between flexibility and distributed scalability.
-
-Performance Considerations: Observed how PySpark handles data partitioning compared to the monolithic data frame approach of Pandas.
-
-Data Quality: Gained experience in handling standard data issues like date format inconsistencies and data type casting, ensuring consistency across both implementation environments.
+- Performance Considerations: Observed how PySpark handles data partitioning compared to the monolithic data frame approach of Pandas.
+- Data Quality: Gained experience in handling standard data issues like date format inconsistencies and data type casting, ensuring consistency across both implementation environments.
