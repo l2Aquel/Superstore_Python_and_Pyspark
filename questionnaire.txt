@@ -1,0 +1,20 @@
+Level 1: Foundational Analysis (Pandas/NumPy)
+Date Conversion: Convert Order Date and Ship Date to datetime objects and calculate the Shipping Duration (in days) for every order.
+Basic Aggregation: Which State has the highest total Sales volume, and how does it compare to the state with the lowest?
+Customer Profiling: Identify the top 10 unique customers based on the total number of orders placed.
+Sales Distribution: Using NumPy, determine the 25th, 50th (median), and 75th percentiles of Sales to understand the distribution of transaction sizes.
+Category Performance: Create a cross-tabulation (crosstab) showing the count of orders by Region and Category.
+
+Level 2: Intermediate Manipulation & Logic
+Conditional Flagging: Create a 'High Value Order' column where orders with Sales > 500 are flagged as 'Yes', and others as 'No'.
+Profitability Check: Determine which Sub-Category items have a negative profit margin, and calculate the total loss incurred by those sub-categories.
+Monthly Trends: Aggregate total Sales by month and year. Create a bar chart showing the growth trend over the years.
+Ship Mode Preference: Calculate the percentage of total orders that fall into each Ship Mode category.
+Discount Impact: Create a scatter plot visualizing the relationship between Discount levels and Profit. Use a trend line to illustrate the impact of higher discounts on profitability.
+
+Level 3: Advanced Window Functions (Lag, Lead, Rolling)
+Lag Analysis: Calculate the percentage growth (or decline) in Sales for each month compared to the previous month.
+Rolling Average: Calculate the 3-month rolling average of Sales for the entire store to smooth out seasonal volatility.
+Running Total: Create a new column showing the cumulative running total of Sales over time (sorted by Order Date).
+Rankings: For each Category, identify the top 3 Product Name items based on Profit
+Lead/Next Sale: Classify your customers based on their total Sales using the following logic: High: Sales 10,000,Medium: Sales between 2,000 and 10,000,Low: Sales < $2,000. And find the Average Sale and Average Profit of their Revenue Tiers
